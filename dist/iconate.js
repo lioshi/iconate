@@ -49,11 +49,13 @@
     }
 
     function changeClasses(element, from, to) {
-        if (element.classList.contains(from)) {
-            element.classList.remove(from);
-        }
+        // if (element.classList.contains(from)) {
+        //     element.classList.remove(from);
+        // }
 
-        element.classList.add(to);
+        // element.classList.add(to);
+
+        element.innerHTML = to;
     }
 
     function iconate(el, options, callback) {
